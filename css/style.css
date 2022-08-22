@@ -59,7 +59,7 @@ clear: both;
 
 input{
     font-size: 18px;
-   
+   margin: 8px;
      padding: 5px;
     width: 49vw;
     border-radius: 5px;
