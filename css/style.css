@@ -34,6 +34,9 @@ nav{
     overflow-y: auto;
     margin-bottom: 20px;
 }
+#send-form {
+    display: flex;
+}
 .message{
     background-color:rgb(229 255 225);
     padding: 12px;
@@ -53,12 +56,7 @@ clear: both;
    float: left;
    clear: both;
 }
-.send{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
+
 input{
     font-size: 18px;
    
@@ -80,4 +78,15 @@ input{
     background-color:rgb(18 85 187);
     color: white;
 
+}
+
+@media screen and (max-width:300px){
+
+#send-form {
+       
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     
 }
