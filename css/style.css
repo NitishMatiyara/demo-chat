@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(rgb(250 251 255), #49b2f8);
+   
+    height: 100vh;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    
+}
+.container{
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 70vh;
+    width: 60vw;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.message{
+    background-color:rgb(229 255 225);
+    padding: 12px;
+    font-size: 12px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    font-family: 'Poppins', sans-serif;
+}
+.right{
+float: right;
+clear: both;
+}
+
+.left{
+   float: left;
+   clear: both;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+input{
+    font-size: 18px;
+   
+     padding: 5px;
+    width: 49vw;
+    border-radius: 5px;
+        background-color: transparent;
+        border: 2px solid black;
+        outline: none;
+        
+}
+.btn{
+    padding: 9px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 75px;
+    cursor: pointer;
+    background-color:rgb(18 85 187);
+    color: white;
+
+}
